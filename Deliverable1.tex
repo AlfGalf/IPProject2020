@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
 \usepackage[english]{babel}
+\usepackage{natbib}
 
 \usepackage{graphicx}
 \graphicspath{ {./assets/} }
@@ -56,11 +57,11 @@ one another. Sign language allows people with impaired hearing to communicate wi
 much better way. Although it is not always that easy, as sign language is not known by everyone,so 
 sometimes it can be very difficult to understand what another person is trying to tell you. With all 
 of this being said, the statistics are astonishing, 11 million people are deaf or hard of hearing in 
-the UK, that makes around 16.7% of the population has hearing difficulties . Nonetheless there are 
+the UK, that makes around 16.7\% of the population has hearing difficulties . Nonetheless there are 
 only around 150,000 British Sign Language users, this shows clearly the dilemma they are facing. As 
 a consequence of this people with hearing difficulties are more prone to unemployment and mental 
-health issues. [Statistics About Hearing Loss] . You could argue one obstacle leads to the other, 
-yet they are both urgent problems to solve.
+health issues. \cite{gov.uk_2019}. You could argue one obstacle leads to the other, yet they are 
+both urgent problems to solve.
 
 \subsubsection{Motivation}
 
@@ -72,32 +73,32 @@ seen the risk of this mental health condition rise. The option of speaking to fr
 members over the phone is much less feasible for them for obvious reasons. In like manner Deaf clubs 
 have being forced to shut down during long periods, they appear a place where they can socialise and 
 stay in contact, the changeover to online meetings in the best cases has being hurtful for the 
-community [How coronavirus lockdown hits deaf people harder than most].The benefits from technology 
-can be used to help, understanding ASL may be very challenging at first; this can be minimised. 
-Undoubtedly the need for this has increased exponentially over the last few months [The Zoom Boom], 
-during these unprecedented times we are living where COVID-19 has influenced our lifestyle. Online 
-communication is one of the biggest challenges, here we can find a clear example of how without an 
-interpreter you would have to text chat with one another. This is far from ideal and can be solved. 
+community \cite{heren_2020}.The benefits from technology can be used to help, understanding ASL may 
+be very challenging at first; this can be minimised. Undoubtedly the need for this has increased 
+exponentially over the last few months \cite{kalia_2020}, during these unprecedented times we are 
+living where COVID-19 has influenced our lifestyle. Online communication is one of the biggest 
+challenges, here we can find a clear example of how without an interpreter you would have to text 
+chat with one another. This is far from ideal and can be solved. 
 
-In addition to this, the other main form of communication for a Deaf person is lip-reading [How does 
-a deaf person communicate?], while this is a harder and less accurate form of communication it is 
-currently becoming obsolete due to the Government guidelines regarding the COVID-19 pandemic, the 
-issue being the required use of face coverings in enclosed spaces. For this reason, lips are covered 
-by the face covering and are no longer readable, likewise, one other action we must perform to 
-protect each other from the spread of the virus is social distancing with at least 1 metre (when 
-using a face covering) [COVID-19 Guidelines]. Lip readers rely heavily on any residual hearing they 
-may have left to interpret a conversation; with the use of face coverings and social distancing the 
+In addition to this, the other main form of communication for a Deaf person is lip-reading 
+\cite{hearing_dogs_for_deaf_people}, while this is a harder and less accurate form of communication 
+it is currently becoming obsolete due to the Government guidelines regarding the COVID-19 pandemic, 
+the issue being the required use of face coverings in enclosed spaces. For this reason, lips are 
+covered by the face covering and are no longer readable, likewise, one other action we must perform 
+to protect each other from the spread of the virus is social distancing with at least 1 metre (when 
+using a face covering) \cite{gov.uk_2020}. Lip readers rely heavily on any residual hearing they may 
+have left to interpret a conversation; with the use of face coverings and social distancing the 
 difficulty of recognising any residual hearing has increased greatly and hence the struggle to 
 communicate with any other person. 
 
 Moreover the lack of existing systems allow us to explore the broad topic of a American Sign 
 Language interpreter. During our research we encountered some different ideas of interpreting Sign 
 Language, despite this some of them weren't complete, alternatively one other system we found 
-required the use of specific technology which consisted of a glove with in-built sensors. [S. A. 
-Mehdi and Y. N. Khan, "Sign language recognition using sensor gloves" ] Our objective is to try and 
-simplify the process through which Sign Language interpretation happens as the limited access to 
-specific equipment can minimise the scope of the solution. This motivated us forward to design a 
-system which is easy to use and using common daily technology. 
+required the use of specific technology which consisted of a glove with in-built sensors. 
+\cite{mehdi_khan_2002}. Our objective is to try and simplify the process through which Sign Language 
+interpretation happens as the limited access to specific equipment can minimise the scope of the 
+solution. This motivated us forward to design a system which is easy to use and using common daily 
+technology. 
 
 \subsubsection{Other ideas}
 
@@ -116,9 +117,9 @@ hold the device with the camera and record making things easier to use.
 Looking into the described domain, there exists very little in terms of systems that can understand 
 or interpret ASL. The closest system we could find to manage the problem presented in the domain is 
 software that can have text input into them and they will return a series of images that show how to 
-sign out the words or phrases [handtalk, n.d. Hand talk translator (v3) [computer program]]. Due to 
-the lack of already existing solutions to the problem presented in the domain, this significantly 
-increases the usefulness of our solution due to sparsity.
+sign out the words or phrases \cite{handtalk}. Due to the lack of already existing solutions to the 
+problem presented in the domain, this significantly increases the usefulness of our solution due to 
+sparsity.
 
 The people working on this project do not have a hearing disability, nor do they actively interact 
 with someone who does, as a result they do not need to use ASL on a regular occasion. As well as 
@@ -207,8 +208,7 @@ help to lay out our overall vision for our solution.
   \item Plan for system structure and stack (Second deliverable)
   \item Plan for letter recognition library (Second deliverable)
   \item Proof of concept Python system implementing a machine learning letter recognition model, 
-    taught on the \href{https://www.kaggle.com/grassknoted/asl-alphabet}{ASL Alphabet dataset}  
-    (2nd week of Semester 2)
+    taught on the ASL Alphabet dataset \cite{asldataset} (2nd week of Semester 2)
   \item Generalising proof of concept system into a Python library implementing the model (2nd week 
     of Semester 2)
   \item Server side API model to allow connections to the ML model (5th week of Semester 2)
@@ -357,8 +357,10 @@ management and the handling of tasks.
 
 \includegraphics[width=\textwidth]{IpGantt.png}
 
+\newpage
+
 \bibliography{sample}
-\bibliographystyle{ieeetr}
+\bibliographystyle{bath}
 
 \end{document}
 
